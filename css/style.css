@@ -1,6 +1,7 @@
 
 :root {
   --red: #FF3838;
+  --gold: #FAC031;
 }
 
 * {
@@ -15,7 +16,7 @@
 }
 
 *::selection {
-  background: var(--red);
+  background: var(--gold);
   color: #fff;
 }
 
@@ -33,6 +34,7 @@ body {
 section {
   padding: 2rem 9%;
 }
+
 
 header {
   position: fixed;
@@ -52,7 +54,7 @@ header {
 header .logo i {
   font-size: 2.5rem;
   padding-right: .5rem;
-  color: var(--red);
+  color: var(--gold);
 }
 
 header .navbar a {
@@ -62,7 +64,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: var(--red);
+  color: var(--gold);
 }
 
 #menu-bar {
@@ -120,6 +122,40 @@ header .navbar a:hover {
   padding: 1rem 0;
 }
 
+.btn {
+  display: inline-block;
+  padding: .8rem 3rem;
+  border: .2rem solid var(--gold);
+  color: var(--gold);
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--gold);
+  transition: .3s linear;
+  z-index: -1;
+}
+
+.btn:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.btn:hover {
+  color: #FFF;
+}
 
 
 
@@ -151,6 +187,10 @@ header .navbar a:hover {
   header {
     padding: 2rem;
   }
+
+  section {
+    padding: 2rem 9%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -177,7 +217,7 @@ header .navbar a:hover {
     padding: 1.5rem;
     display: block;
     border: .2rem solid rgba(0, 0, 0, .1);
-    border-left: .5rem solid var(--red);
+    border-left: .5rem solid var(--gold);
     background: #FFF;
   }
 
