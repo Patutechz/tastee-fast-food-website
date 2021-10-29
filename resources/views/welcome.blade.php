@@ -11,7 +11,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <!-- CUSTOM CSS FILE LINK -->
-  <link rel="stylesheet" href="css/style.css">
+  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
   <!-- GOOGLE FONT LINK -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@
       </div>
 
       <div class="image">
-        <img src="images/home-img.png" alt="">
+        <img src="{{ asset('images/home-img.png') }}" alt="">
       </div>
 
     </section>
@@ -67,54 +67,54 @@
       <div class="box-container">
 
         <div class="box">
-          <img class="image" src="images/s-img-1.jpg" alt="">
+          <img class="image" src="{{ asset('images/s-img-1.jpg') }}" alt="">
           <div class="content">
-            <img src="images/s-1.png" alt="">
+            <img src="{{ asset('images/s-1.png') }}" alt="">
              <h3>Tastee Burger</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
         </div>
 
         <div class="box">
-          <img class="image" src="images/s-img-2.jpg" alt="">
+          <img class="image" src="{{ asset('images/s-img-2.jpg') }}" alt="">
           <div class="content">
-            <img src="images/s-2.png" alt="">
+            <img src="{{ asset('images/s-2.png') }}" alt="">
              <h3>Tastee Pizza</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
         </div>
 
         <div class="box">
-          <img class="image" src="images/s-img-3.jpg" alt="">
+          <img class="image" src=" {{ asset('images/s-img-3.jpg') }}" alt="">
           <div class="content">
-            <img src="images/s-3.png" alt="">
+            <img src=" {{ asset('images/s-3.png') }}" alt="">
              <h3>Ice Cream</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
         </div>
 
         <div class="box">
-          <img class="image" src="images/s-img-4.jpg" alt="">
+          <img class="image" src="" alt="">
           <div class="content">
-            <img src="images/s-4.png" alt="">
+            <img src="{{ asset('images/s-4.png') }}" alt="">
              <h3>Chilled Drinks</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
         </div>
 
         <div class="box">
-          <img class="image" src="images/s-img-5.jpg" alt="">
+          <img class="image" src="{{ asset('images/s-img-5.jpg') }}" alt="">
           <div class="content">
-            <img src="images/s-5.png" alt="">
+            <img src="{{ asset('images/s-5.png') }}" alt="">
              <h3>Tastee Pastries</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
         </div>
 
         <div class="box">
-          <img class="image" src="images/s-img-6.jpg" alt="">
+          <img class="image" src="{{ asset('images/s-img-6.jpg') }}" alt="">
           <div class="content">
-            <img src="images/s-6.png" alt="">
+            <img src="{{ asset('images/s-6.png') }}" alt="">
              <h3>Breakfast</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum cum adipisci eos sequi quos maxime tempore? Repellendus veniam temporibus cum ab voluptatem, ex voluptates? Reprehenderit pariatur harum error iure!</p>
           </div>
@@ -130,22 +130,22 @@
   <section class="steps">
 
     <div class="box">
-      <img src="images/step-1.jpg" alt="">
+      <img src="{{ asset('images/step-1.jpg') }}" alt="">
       <h3>Make Your Choice</h3>
     </div>
 
     <div class="box">
-      <img src="images/step-2.jpg" alt="">
+      <img src="{{ asset('images/step-2.jpg') }}" alt="">
       <h3>Free and Fast Delivery</h3>
     </div>
 
     <div class="box">
-      <img src="images/step-3.jpg" alt="">
+      <img src="{{ asset('images/step-3.jpg') }}" alt="">
       <h3>Easy Payment</h3>
     </div>
 
     <div class="box">
-      <img src="images/step-4.jpg" alt="">
+      <img src="{{ asset('images/step-4.jpg') }}" alt="">
       <h3>Enjoy Your Meal</h3>
     </div>
 
@@ -161,7 +161,7 @@
     <div class="box-container">
 
       <div class="box">
-        <img src="images/g-1.jpg" alt="">
+        <img src="{{ asset('images/g-1.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -170,7 +170,7 @@
       </div>
 
       <div class="box">
-        <img src="images/g-2.jpg" alt="">
+        <img src="{{ asset('images/g-2.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -179,7 +179,7 @@
       </div>
 
       <div class="box">
-        <img src="images/g-3.jpg" alt="">
+        <img src="{{ asset('images/g-3.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -188,7 +188,7 @@
       </div>
 
       <div class="box">
-        <img src="images/g-4.jpg" alt="">
+        <img src="{{ asset('images/g-4.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -197,7 +197,7 @@
       </div>
 
       <div class="box">
-        <img src="images/g-6.jpg" alt="">
+        <img src="{{ asset('images/g-6.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -206,7 +206,7 @@
       </div>
 
       <div class="box">
-        <img src="images/g-7.jpg" alt="">
+        <img src="{{ asset('images/g-7.jpg') }}" alt="">
         <div class="content">
           <h3>Tasty Food</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -228,22 +228,22 @@
     <div class="row">
 
       <div class="image">
-        <img src="images/food-delivery.jpg" alt="">
+        <img src="{{ asset('images/food-delivery.jpg') }}" alt="">
       </div>
       
-      <form action="">
-
+      <form action="{{ route('orders.store') }}" method="POST" enctype="multipart/form-data">
+        @csrf
         <div class="inputBox">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Name" name="customer_name">
+          <input type="email" placeholder="Email" name="customer_email">
         </div>
 
         <div class="inputBox">
-          <input type="number" placeholder="Number">
-          <input type="text" placeholder="Meal Choice">
+          <input type="number" placeholder="Number" name="customer_number">
+          <input type="text" placeholder="Meal Choice" name="product">
         </div>
 
-        <textarea placeholder="Address" name="" id="" cols="30" rows="10"></textarea>
+        <textarea placeholder="Address" name="customer_address" id="" cols="30" rows="10"></textarea>
 
         <input type="submit" value="Order Now" class="btn">
         
@@ -275,10 +275,10 @@
 
   <!--LOADER-->
   <div class="loader-container">
-      <img src="images/loader.gif" alt="">
+      <img src="{{ asset('images/loader.gif') }}" alt="">
   </div>
 
   <!-- CUSTOM JS FILE LINK --> 
-  <script src="js/script.js"></script>
+  <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
